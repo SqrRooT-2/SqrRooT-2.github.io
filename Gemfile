@@ -1,6 +1,7 @@
+# frozen_string_literal: true
+
 source 'https://rubygems.org'
 
-# 'github-pages' includes 'jekyll' gem 
-gem 'github-pages'
-gem 'bourbon'
-gem 'jemoji'
+gem "kramdown-parser-gfm"
+
+gemspec

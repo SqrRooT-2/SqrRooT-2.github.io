@@ -1,41 +1,30 @@
-# Build settings
-gems:
-  - jemoji
-  - jekyll-paginate
+title: Cayman Blog Theme
+description: Cayman Blog Theme is a clean, responsive blogging theme for Jekyll and Gitlab/GitHub Pages.
+show_downloads: true
 
-# Site settings
-title: "SqrRooT_2의 PS블로그"
-description: "SqrRooT_2 (wken2824)가 운영하는 PS블로그입니다."
+baseurl: "/cayman-blog" # change this to the subpath of your site, e.g. /blog. Leave it empty if you don't need it.
+url: "https://lorepirri.github.io" # change this to the base hostname & protocol for your site
 
-email: "2147483648ll@gmail.com"
-#blog logo
-logo: "/assets/images/df_logo.jpg"
-float_logo: true # true, false (default)
 
-# blog cover
-cover: "/assets/images/df_logo.jpg"
+google_analytics:
 
-name: 'SqrRooT_2'
-author: 'SqrRooT_2'
-author_image: "/assets/images/df_logo.jpg"
+# cayman-blog date format
+# refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
+cayman-blog:
+  date_format: "%b %-d, %Y"
 
-paginate:	5
+theme: # leave it empty
 
-url: "http://SqrRooT-2.github.io" # the base hostname & protocol for your site
-baseurl: ""
-#used to display twitter cards
+# social
+author: lorepirri
+image: /thumbnail-jumbo.png
+twitter:
+  username: lorepirri
 
-#fill in disqus shortname to use disqus
-#disqus: disqus-shortname
+plugins:
+  - jekyll-target-blank
 
-#google_analytics: UA-XXXXX-X
+target-blank:
+    rel: nofollow
 
-# social icons and sharing options
-social:
-
-  - icon:	github
-    url:	https://github.com/SqrRooT-2
-    desc:	github profile
-    share_url:
-    share_title:
-    share_link:
+header_page_refs: ['now', 'about', 'contact']
