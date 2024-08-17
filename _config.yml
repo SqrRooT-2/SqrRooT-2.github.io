@@ -4,28 +4,26 @@ gems:
   - jekyll-paginate
 
 # Site settings
-title: "SqrRooT_2 (wken2824)의 PS블로그"
-description: > # this means to ignore newlines until "email:"
-   A Jekyll theme - Medium inspired
+title: "SqrRooT_2의 PS블로그"
+description: "SqrRooT_2 (wken2824)가 운영하는 PS블로그입니다."
 
-email: a-mail@mail.mail
+email: "2147483648ll@gmail.com"
 #blog logo
 logo: "/assets/images/df_logo.jpg"
 float_logo: true # true, false (default)
 
 # blog cover
-cover: "/assets/images/cA4aKEIPQrerBnp1yGHv_IMG_9534-3-2.jpg"
+cover: "/assets/images/df_logo.jpg"
 
-name: 'Dirk Fabisch'
-author: 'Dirk Fabisch'
-author_image: "/assets/images/author.jpg"
+name: 'SqrRooT_2'
+author: 'SqrRooT_2'
+author_image: "/assets/images/df_logo.jpg"
 
 paginate:	5
 
 url: "http://SqrRooT-2.github.io" # the base hostname & protocol for your site
 baseurl: ""
 #used to display twitter cards
-twitter_handle: '@dirkfabisch'
 
 #fill in disqus shortname to use disqus
 #disqus: disqus-shortname
@@ -34,30 +32,10 @@ twitter_handle: '@dirkfabisch'
 
 # social icons and sharing options
 social:
-  - icon:	twitter
-    url:	https://twitter.com/dirkfabisch
-    desc: Follow me on twitter
-    share_url: http://twitter.com/share
-    share_title: ?text=
-    share_link: "&amp;url="
-
-#  - icon:	facebook
-#    url:	https://facebook.com/???
-#    desc: Connect with me facebook
-#    share_url: https://www.facebook.com/sharer.php
-#    share_title: ?t=
-#    share_link: "&amp;u="
 
   - icon:	github
-    url:	https://github.com/dirkfabisch
-    desc:	Fork me on github
+    url:	https://github.com/SqrRooT-2
+    desc:	github profile
     share_url:
     share_title:
     share_link:
-
-#  - icon:	google-plus
-#    url:	https://google.com/???
-#    desc:	Add me on google+
-#    share_url:
-#    share_title:
-#    share_link:
